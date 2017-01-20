@@ -1,0 +1,37 @@
+.splash {
+  padding-top: 20px;
+  min-width: 50%;
+
+}
+.projDesc {
+  padding-top: 50px;
+
+}
+
+.projLink a {
+  color: #333
+}
+.projDesc p {
+  font-size: 17px;
+  text-align: justify;
+
+}
+
+.projDesc li {
+  display: list-item;
+  text-align: left;
+}
+
+.foot ul {
+  color: black;
+}
+@media (min-width: 1024px) {
+  .splash {
+    max-width: 50%;
+  }
+
+  .projDesc {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}

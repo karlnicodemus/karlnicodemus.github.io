@@ -1,0 +1,201 @@
+body {
+    text-align: center;
+    /*background: url("../assets/paper_01.jpg") no-repeat center fixed;
+    background-size: cover;*/
+    background-color: #ffffff
+}
+
+nav {
+    text-align: right;
+    background: rgba(41, 36, 32, 82);
+    color: rgba(241,244,251,1);
+    margin: 0 auto;
+    padding: 0;
+    height: 60px;
+    position: relative;
+}
+.links {
+    position: absolute;
+    padding: 0;
+    bottom: 10px;
+    right: 12px;
+    width: 100%;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', serif;
+    color: rgba(241,244,251,1);
+}
+
+li {
+    display: inline;
+    margin: 0 auto;
+    padding: 0px 10px 0px 10px;
+    bottom: 0px;
+    font-size: 16px;
+}
+
+li a {
+    color: rgba(241,244,251,1);
+}
+
+.main {
+    padding: 50px;
+    position: relative;
+}
+
+.triangle {
+    left: 0;
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.triangleShape{
+    stroke: rgba(41, 36, 32, 82);
+}
+
+.content {
+    color: rgba(41, 36, 32, 82);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 1;
+    padding-top: 150px
+}
+
+.logo {
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+}
+.logoShape {
+    fill: rgba(41, 36, 32, 82);
+    stroke: rgba(41, 36, 32, 82);
+}
+
+.content h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 23px;
+    margin-top: 20px;
+    padding: 0;
+
+
+}
+
+.header h1 {
+  text-align: left;
+  padding-bottom: 80px;
+}
+
+hr {
+    border-top: 3px solid rgba(41, 36, 32, 82);
+
+    width: 30px;
+    margin-top: 20px;
+}
+
+.content h2 {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1.0px;
+    line-height: 1.25;
+    margin-top: 40px;
+}
+
+.holder {
+    position: relative;
+    margin: 0 auto;
+}
+
+.myPic {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 0;
+    opacity: .5;
+
+
+}
+
+.textContainer {
+    position: relative;
+    margin-top: 180px;
+    background-color: rgba(255,255,255,.75);
+    padding: 30 20 30 20;
+
+
+}
+.textContainer p {
+    text-align: justify;
+}
+
+img {
+    padding: 10 10 10 10;
+    height: auto;
+    max-width: 100%;
+}
+
+.projectTitle {
+  font-size: 27px;
+}
+.projectDate {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.projLink a {
+  color: #333
+}
+
+@media (max-width: 992px) {
+  .holder {
+    background: url("../assets/about2.jpg") no-repeat fixed;
+    background-size: cover;
+  }
+  .myPic {
+    display: none;
+  }
+  .textContainer {
+    opacity: 1.0;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 500px) {
+    nav {
+      text-align: center;
+    }
+
+    .links {
+      right: 0px;
+
+    }
+
+    .content h1{
+        font-size: 20px;
+    }
+    .content h2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 350px) {
+    .main {
+        padding-top: 0px;
+    }
+    .content h2 {
+
+        margin-top: 10px;
+    }
+}
+footer {
+    margin-top: 30px;
+}
+
+footer h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: rgba(41, 36, 32,.5);
+}
