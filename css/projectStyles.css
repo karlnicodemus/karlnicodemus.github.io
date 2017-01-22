@@ -8,9 +8,7 @@
 
 }
 
-.projLink a {
-  color: #333
-}
+
 .projDesc p {
   font-size: 17px;
   text-align: justify;
@@ -22,8 +20,8 @@
   text-align: left;
 }
 
-.foot ul {
-  color: black;
+.extLink a {
+  color: #000;
 }
 @media (min-width: 1024px) {
   .splash {

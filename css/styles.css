@@ -51,6 +51,7 @@ li a {
     padding: 0 20px;
 }
 
+
 .triangleShape{
     stroke: rgba(41, 36, 32, 82);
 }
@@ -107,22 +108,25 @@ hr {
 .holder {
     position: relative;
     margin: 0 auto;
+
 }
 
 .myPic {
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    z-index: 0;
-    opacity: .5;
+    left: 400px;
+    top: 0px;
+    width: 50%;
+    height: auto;
+    opacity: 0.4;
 
 
 }
 
+
 .textContainer {
     position: relative;
     margin-top: 180px;
-    background-color: rgba(255,255,255,.75);
+    background-color: rgba(255,255,255,.8);
     padding: 30 20 30 20;
 
 
@@ -137,6 +141,7 @@ img {
     max-width: 100%;
 }
 
+
 .projectTitle {
   font-size: 27px;
 }
@@ -148,20 +153,37 @@ img {
 .projLink a {
   color: #333
 }
+.linkList {
+  padding-left: 0px;
+}
+.extLink a{
+  color: #337ab7;
+  padding: 0 auto;
+}
+
+.foot {
+  padding-top: 30px;
+}
 
 @media (max-width: 992px) {
   .holder {
-    background: url("../assets/about2.jpg") no-repeat fixed;
-    background-size: cover;
+
   }
   .myPic {
-    display: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
   }
   .textContainer {
+    margin-top: 100px;
+    padding-top: 20px;
     opacity: 1.0;
     z-index: 1;
   }
 }
+
 
 @media (max-width: 500px) {
     nav {
